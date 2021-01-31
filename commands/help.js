@@ -7,7 +7,7 @@ module.exports.run = async (client, message, args) => {
   if (!message.content.startsWith(prefix)) return;
 
   let help = new Discord.MessageEmbed()
-    .setAuthor("Zero")
+    .setAuthor("Krezy")
     .setTitle("Command List & Guide for the Bot")
     .setDescription(
       "Below are Commands you can do with Bot, Right now there is only 6 commands available, more commands will be added soon."
